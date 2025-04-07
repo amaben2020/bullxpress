@@ -122,6 +122,7 @@ queueEvents.on('completed', ({ jobId }) => {
 
 queueEvents.on('failed', ({ jobId, failedReason }) => {
   console.error(`Job ${jobId} failed:`, failedReason);
+  // send to slack or db log failure
 });
 
 createBullBoard({
