@@ -1,0 +1,20 @@
+{
+  "name": "backgroundtasks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Benneth Uzochukwu",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bull-board/express": "^6.8.2",
+    "@bull-board/ui": "^6.8.2",
+    "bullmq": "^5.47.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
